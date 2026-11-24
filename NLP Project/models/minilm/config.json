@@ -1,0 +1,18 @@
+{
+    "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dimension": 384,
+    "max_sequence_length": 256,
+    "normalize_embeddings": true,
+    "batch_size": 32,
+    "classifier": "LogisticRegression",
+    "best_C": 10.0,
+    "best_class_weight": "balanced",
+    "random_state": 42,
+    "classes": [
+        "Air Bags",
+        "Electrical System",
+        "Fuel System",
+        "Service Brakes",
+        "Steering"
+    ]
+}
